@@ -1,0 +1,7 @@
+Django==4.2.10
+django-allauth==0.61.1
+django-crispy-forms==2.1
+crispy-bootstrap5==2023.10
+xhtml2pdf==0.2.13
+requests==2.31.0
+python-dotenv==1.0.1

@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Edit Customer{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/multi-step-form.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="form-container">
+                <h1 class="text-center mb-4">Edit Customer</h1>
+                
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    {% if form.errors %}
+                    <div class="alert alert-danger">
+                        <p>Please correct the errors below.</p>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="id_first_name">First Name*</label>
+                            {{ form.first_name }}
+                            <div class="error-message">{{ form.first_name.errors }}</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id_middle_name">Middle Name</label>
+                            {{ form.middle_name }}
+                            <div class="error-message">{{ form.middle_name.errors }}</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id_last_name">Last Name*</label>
+                            {{ form.last_name }}
+                            <div class="error-message">{{ form.last_name.errors }}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="id_date_of_birth">Date of Birth*</label>
+                        {{ form.date_of_birth }}
+                        <div class="error-message">{{ form.date_of_birth.errors }}</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Gender*</label>
+                        <div class="radio-group">
+                            {% for radio in form.gender %}
+                            <label class="radio-label">
+                                {{ radio.tag }}
+                                <span class="radio-custom"></span>
+                                {{ radio.choice_label }}
+                            </label>
+                            {% endfor %}
+                        </div>
+                        <div class="error-message">{{ form.gender.errors }}</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="id_email">Email Address*</label>
+                        {{ form.email }}
+                        <div class="error-message">{{ form.email.errors }}</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="id_phone">Phone Number*</label>
+                        {{ form.phone }}
+                        <div class="error-message">{{ form.phone.errors }}</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="id_address">Address*</label>
+                        {{ form.address }}
+                        <div class="error-message">{{ form.address.errors }}</div>
+                    </div>
+                    
+                    <div class="form-buttons">
+                        <a href="{% url 'customer_detail' customer.id %}" class="btn btn-back">
+                            <i class="fas fa-arrow-left"></i> Cancel
+                        </a>
+                        <button type="submit" class="btn btn-submit">
+                            <i class="fas fa-save"></i> Save Changes
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

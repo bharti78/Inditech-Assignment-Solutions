@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block title %}Webhook Configuration{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Webhook Configuration</h2>
+                </div>
+                <div class="card-body">
+                    {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <div class="mb-4">
+                        <h4>Current Settings</h4>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Webhook URL</th>
+                                    <td>{{ webhook_uri }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Webhook Status</th>
+                                    <td>
+                                        {% if webhook_uri %}
+                                            <span class="badge bg-success">Configured</span>
+                                        {% else %}
+                                            <span class="badge bg-danger">Not Configured</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Secret Key</th>
+                                    <td>
+                                        {% if webhook_secret %}
+                                            <span class="badge bg-success">Configured</span>
+                                        {% else %}
+                                            <span class="badge bg-warning">Not Set</span>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4>Webhook Information</h4>
+                        <p>Webhooks allow your application to notify external services when events occur in your system.</p>
+                        <p>When a customer is added, updated, or deleted, a webhook notification will be sent to the configured URL.</p>
+                        
+                        <div class="alert alert-info">
+                            <h5>Payload Format</h5>
+                            <pre><code>{
+  "event_type": "customer_added",
+  "timestamp": "2023-03-22T10:30:45.123456",
+  "user": "admin",
+  "customer": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "created_at": "2023-03-22T10:30:45.123456"
+  }
+}</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4>Security</h4>
+                        <p>Webhook requests are signed using HMAC-SHA256 with your secret key. The signature is included in the <code>X-Webhook-Signature</code> header.</p>
+                        <p>To verify the signature, compute HMAC-SHA256 of the request body using your secret key and compare it with the signature in the header.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4>Actions</h4>
+                        <div class="d-flex gap-3">
+                            <form method="post">
+                                {% csrf_token %}
+                                <input type="hidden" name="test_webhook" value="1">
+                                <button type="submit" class="btn btn-primary" {% if not webhook_uri %}disabled{% endif %}>
+                                    Test Webhook
+                                </button>
+                            </form>
+                            
+                            <form method="post">
+                                {% csrf_token %}
+                                <input type="hidden" name="generate_secret" value="1">
+                                <button type="submit" class="btn btn-secondary">
+                                    Generate New Secret
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-warning">
+                        <h5>Configuration Instructions</h5>
+                        <p>To configure webhooks, add the following to your <code>.env</code> file:</p>
+                        <pre><code>WEBHOOK_URI=https://your-webhook-endpoint.com/hook
+WEBHOOK_SECRET_KEY=your-secret-key</code></pre>
+                        <p>Then restart your application for the changes to take effect.</p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="{% url 'dashboard' %}" class="btn btn-secondary">Back to Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

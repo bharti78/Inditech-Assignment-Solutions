@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Welcome to Customer Portal{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="text-center font-weight-light my-4">Welcome to Customer Portal</h1>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <p class="lead">A simple and efficient way to manage your customer information</p>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-users fa-4x mb-3 text-primary"></i>
+                                    <h3>Customer Management</h3>
+                                    <p>Add, edit, and manage your customer information in one place.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-file-pdf fa-4x mb-3 text-primary"></i>
+                                    <h3>PDF Generation</h3>
+                                    <p>Generate and download customer information as PDF documents.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-bell fa-4x mb-3 text-primary"></i>
+                                    <h3>Webhook Notifications</h3>
+                                    <p>Receive notifications when customer information changes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-4">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-chart-line fa-4x mb-3 text-primary"></i>
+                                    <h3>Activity Logging</h3>
+                                    <p>Track all changes and activities in your customer database.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'dashboard' %}" class="btn btn-primary btn-lg px-5">Go to Dashboard</a>
+                        {% else %}
+                            <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                                <a href="{% url 'account_login' %}" class="btn btn-primary btn-lg px-5">Sign In</a>
+                                <a href="{% url 'account_signup' %}" class="btn btn-outline-primary btn-lg px-5">Register</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="card-footer text-center py-3">
+                    <div class="small">
+                        {% if user.is_authenticated %}
+                            Logged in as {{ user.username }} | <a href="{% url 'account_logout' %}">Logout</a>
+                        {% else %}
+                            Don't have an account? <a href="{% url 'account_signup' %}">Sign up now!</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

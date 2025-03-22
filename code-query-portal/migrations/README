@@ -1,0 +1,39 @@
+# Code Query Portal
+
+A Flask-based web application that allows users to query programming solutions through text prompts. The system integrates Google OAuth for authentication, matches user queries with predefined solutions, and provides relevant code responses.
+
+## Features
+
+- **Google OAuth Authentication**: Secure user authentication via Google accounts
+- **Text-based Query Interface**: Simple and intuitive interface for submitting programming queries
+- **Pattern Matching Algorithm**: Matches user queries with predefined solutions
+- **Code Syntax Highlighting**: Clean presentation of code solutions with syntax highlighting
+- **PDF Generation**: Download solutions as formatted PDF documents
+- **Query History**: Track and review past queries and their responses
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
+
+## Technologies Used
+
+- **Backend**: Flask (Python web framework)
+- **Database**: SQLite with SQLAlchemy ORM
+- **Authentication**: Google OAuth 2.0 via Authlib
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
+- **PDF Generation**: ReportLab
+- **Syntax Highlighting**: highlight.js
+- **Environment Management**: python-dotenv
+
+## Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package manager)
+- Google OAuth credentials
+
+### Setup Instructions
+
+1. Clone the repository or download the source code:
+
+```bash
+# git clone https://github.com/yourusername/code-query-portal.git
+# cd code-query-portal

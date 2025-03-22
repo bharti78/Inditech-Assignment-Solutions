@@ -1,0 +1,145 @@
+INFO 2025-03-22 10:53:53,289 utils Webhooks are disabled or webhook URL is not configured
+INFO 2025-03-22 13:04:58,859 utils Webhooks are disabled or webhook URL is not configured
+INFO 2025-03-22 13:12:06,646 utils Webhooks are disabled or webhook URL is not configured
+INFO 2025-03-22 13:23:46,090 utils PDF generation temporarily disabled for customer 9
+INFO 2025-03-22 13:23:46,104 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:23:46,104 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:23:46,107 utils Webhook payload: {"event_type": "customer_updated", "timestamp": "2025-03-22T07:53:46.074672+00:00", "user": "rakshit", "customer": {"id": 9, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T07:42:06.552139+00:00"}}
+DEBUG 2025-03-22 13:23:46,107 utils Generated signature: d81a47a0e142ed58880c5a7d81703998cc3428f95458401005bf4103fd30ed46
+INFO 2025-03-22 13:23:46,109 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:23:47,781 utils Webhook response status: 200
+DEBUG 2025-03-22 13:23:47,784 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:23:47,784 utils Webhook sent successfully: customer_updated
+INFO 2025-03-22 13:23:55,237 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:23:55,237 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:23:55,237 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T07:53:46.074672+00:00", "user": "rakshit", "customer": {"id": 9, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T07:42:06.552139+00:00"}}
+DEBUG 2025-03-22 13:23:55,237 utils Generated signature: 2acd8d34110168c5b796978cb8ba912027d49cee595d68f8980fecdc2a2661aa
+INFO 2025-03-22 13:23:55,237 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:23:56,176 utils Webhook response status: 200
+DEBUG 2025-03-22 13:23:56,176 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:23:56,176 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 13:26:30,688 utils PDF generation temporarily disabled for customer 10
+INFO 2025-03-22 13:26:30,701 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:26:30,701 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:26:30,701 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T07:56:30.677633+00:00", "user": "rakshit", "customer": {"id": 10, "name": "Indian Institute of Information Technology Kota", "email": "bhartidhote8@gmail.com", "phone": "298966869797", "created_at": "2025-03-22T07:56:30.677633+00:00"}}
+DEBUG 2025-03-22 13:26:30,701 utils Generated signature: 7bb03f8a7dcefe5ab6ecc63b715da1a8b9d01c2157f2748210a990b904ecedf2
+INFO 2025-03-22 13:26:30,701 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:26:31,345 utils Webhook response status: 200
+DEBUG 2025-03-22 13:26:31,345 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:26:31,354 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 13:26:40,471 utils PDF generation temporarily disabled for customer 10
+INFO 2025-03-22 13:28:03,973 utils PDF generation temporarily disabled for customer 10
+INFO 2025-03-22 13:28:09,388 utils PDF generation temporarily disabled for customer 10
+INFO 2025-03-22 13:31:53,233 utils PDF generation temporarily disabled for customer 10
+INFO 2025-03-22 13:41:27,022 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:41:27,024 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:41:27,024 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T08:11:27.000150+00:00", "user": "2023kucp1049", "customer": {"id": 11, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T08:11:26.935018+00:00"}}
+DEBUG 2025-03-22 13:41:27,026 utils Generated signature: a84fd4de589e57a2205b7104b061d825f4929a946f422cfb96a84c9867eaae4b
+INFO 2025-03-22 13:41:27,026 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:41:27,984 utils Webhook response status: 200
+DEBUG 2025-03-22 13:41:27,984 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:41:27,984 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 13:41:47,627 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:41:47,627 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:41:47,627 utils Webhook payload: {"event_type": "customer_updated", "timestamp": "2025-03-22T08:11:47.601855+00:00", "user": "2023kucp1049", "customer": {"id": 11, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T08:11:26.935018+00:00"}}
+DEBUG 2025-03-22 13:41:47,632 utils Generated signature: ed74d197db0992f74736b1646d0a6ea1cc62ef50cdb9e04b5bfc19c28ab0abe2
+INFO 2025-03-22 13:41:47,632 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:41:49,677 utils Webhook response status: 200
+DEBUG 2025-03-22 13:41:49,677 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:41:49,677 utils Webhook sent successfully: customer_updated
+INFO 2025-03-22 13:59:43,303 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:59:43,308 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 13:59:43,311 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T08:11:47.601855+00:00", "user": "2023kucp1049", "customer": {"id": 11, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T08:11:26.935018+00:00"}}
+DEBUG 2025-03-22 13:59:43,311 utils Generated signature: 18e6eecf8c0440994b63efb5ec909358d24adc145d0ef80460be90f98197113e
+INFO 2025-03-22 13:59:43,311 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 13:59:44,512 utils Webhook response status: 200
+DEBUG 2025-03-22 13:59:44,516 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 13:59:44,516 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 14:17:20,470 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:17:20,471 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:17:20,471 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T08:47:20.449688+00:00", "user": "2023kucp1049", "customer": {"id": 12, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T08:47:20.357945+00:00"}}
+DEBUG 2025-03-22 14:17:20,471 utils Generated signature: 33b909fedc81ed1f6f1c14a06e59a5fa413075bf9b0d130f7516dd2f243ebf17
+INFO 2025-03-22 14:17:20,471 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:17:22,440 utils Webhook response status: 200
+DEBUG 2025-03-22 14:17:22,440 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:17:22,440 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 14:24:45,923 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:24:45,923 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:24:45,923 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T08:54:45.896756+00:00", "user": "2023kucp1049", "customer": {"id": 13, "name": "Tragic Bytes", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T08:54:45.816851+00:00"}}
+DEBUG 2025-03-22 14:24:45,923 utils Generated signature: d41583b0ed9f362aad4d37f79f921999d34a0921a4397467089dfa929a11b81b
+INFO 2025-03-22 14:24:45,923 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:24:46,875 utils Webhook response status: 200
+DEBUG 2025-03-22 14:24:46,875 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:24:46,885 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 14:42:36,910 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:42:36,911 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:42:36,911 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T09:12:36.891062+00:00", "user": "2023kucp1049", "customer": {"id": 14, "name": "Rohan Singh", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:12:36.846440+00:00"}}
+DEBUG 2025-03-22 14:42:36,911 utils Generated signature: e4c634c0a4ca2515014fa36e9029b84cdba659db95535d8c553be2223cf25e7e
+INFO 2025-03-22 14:42:36,913 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:42:37,598 utils Webhook response status: 200
+DEBUG 2025-03-22 14:42:37,598 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:42:37,598 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 14:45:25,773 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:25,775 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:45:25,776 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T09:12:36.891062+00:00", "user": "2023kucp1049", "customer": {"id": 14, "name": "Rohan Singh", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:12:36.846440+00:00"}}
+DEBUG 2025-03-22 14:45:25,776 utils Generated signature: d938379c5c23e3baee364959880f29bf0e88187980085170beebebd724b6b752
+INFO 2025-03-22 14:45:25,777 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:26,363 utils Webhook response status: 200
+DEBUG 2025-03-22 14:45:26,364 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:45:26,364 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 14:45:28,720 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:28,720 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:45:28,721 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T08:54:45.896756+00:00", "user": "2023kucp1049", "customer": {"id": 13, "name": "Tragic Bytes", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T08:54:45.816851+00:00"}}
+DEBUG 2025-03-22 14:45:28,721 utils Generated signature: 80ec7acc5335965b813e4b7d95b28b2b578dbda92428688871805cc58cd31152
+INFO 2025-03-22 14:45:28,722 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:29,271 utils Webhook response status: 200
+DEBUG 2025-03-22 14:45:29,271 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:45:29,271 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 14:45:31,459 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:31,459 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:45:31,460 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T08:47:20.449688+00:00", "user": "2023kucp1049", "customer": {"id": 12, "name": "Bharti Dhote", "email": "bhartidhote8@gmail.com", "phone": "8269966106", "created_at": "2025-03-22T08:47:20.357945+00:00"}}
+DEBUG 2025-03-22 14:45:31,460 utils Generated signature: 5377700f5b766bc2e49d20951f1f09266c7084768ac7b1060812faafff303bab
+INFO 2025-03-22 14:45:31,460 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:45:32,127 utils Webhook response status: 200
+DEBUG 2025-03-22 14:45:32,127 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:45:32,127 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 14:46:01,493 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:46:01,493 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:46:01,493 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T09:16:01.477689+00:00", "user": "2023kucp1049", "customer": {"id": 15, "name": "Bharti Dhote", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:16:01.437281+00:00"}}
+DEBUG 2025-03-22 14:46:01,493 utils Generated signature: 36007b4759d9fc4ea51c824f53d73a423414f581a06a424ed6b3a9570980575e
+INFO 2025-03-22 14:46:01,493 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:46:02,057 utils Webhook response status: 200
+DEBUG 2025-03-22 14:46:02,058 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:46:02,059 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 14:49:42,212 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:49:42,213 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:49:42,213 utils Webhook payload: {"event_type": "customer_deleted", "timestamp": "2025-03-22T09:16:01.477689+00:00", "user": "2023kucp1049", "customer": {"id": 15, "name": "Bharti Dhote", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:16:01.437281+00:00"}}
+DEBUG 2025-03-22 14:49:42,213 utils Generated signature: 4c3777c9cac1d5aa063728e01009f288c32ec30751626deae92f803a3458688b
+INFO 2025-03-22 14:49:42,213 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:49:42,778 utils Webhook response status: 200
+DEBUG 2025-03-22 14:49:42,778 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:49:42,778 utils Webhook sent successfully: customer_deleted
+INFO 2025-03-22 14:50:02,058 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:50:02,058 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:50:02,058 utils Webhook payload: {"event_type": "customer_added", "timestamp": "2025-03-22T09:20:02.042741+00:00", "user": "2023kucp1049", "customer": {"id": 16, "name": "Bharti Dhote", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:20:02.006285+00:00"}}
+DEBUG 2025-03-22 14:50:02,058 utils Generated signature: 747b530d399730c693279c80a011eae5ad9582c664d17d2f6ef44165eb4c79c7
+INFO 2025-03-22 14:50:02,058 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:50:02,606 utils Webhook response status: 200
+DEBUG 2025-03-22 14:50:02,606 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:50:02,606 utils Webhook sent successfully: customer_added
+INFO 2025-03-22 14:51:46,431 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:51:46,433 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:51:46,433 utils Webhook payload: {"event_type": "customer_updated", "timestamp": "2025-03-22T09:21:46.411160+00:00", "user": "2023kucp1049", "customer": {"id": 16, "name": "Bharti Dhote", "email": "2023kucp1049@iiitkota.ac.in", "phone": "8269966106", "created_at": "2025-03-22T09:20:02.006285+00:00"}}
+DEBUG 2025-03-22 14:51:46,433 utils Generated signature: c8bfc5b06c37edc2f763561d3036ed33471f6fe832925d6cce86e3771c682ea2
+INFO 2025-03-22 14:51:46,433 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:51:47,062 utils Webhook response status: 200
+DEBUG 2025-03-22 14:51:47,063 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:51:47,063 utils Webhook sent successfully: customer_updated
+INFO 2025-03-22 14:52:36,243 utils Webhook URI: https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:52:36,243 utils Webhook Secret configured: Yes
+DEBUG 2025-03-22 14:52:36,243 utils Webhook payload: {"event_type": "customer_updated", "timestamp": "2025-03-22T09:22:36.222856+00:00", "user": "2023kucp1049", "customer": {"id": 16, "name": "Bharti Dhote", "email": "2023kucp1049@iiitkota.ac.in", "phone": "9310897212", "created_at": "2025-03-22T09:20:02.006285+00:00"}}
+DEBUG 2025-03-22 14:52:36,243 utils Generated signature: 42490f42f6ad0cc70187ea63c5cc12a48499e58cb974f52833e241f5c7c1d447
+INFO 2025-03-22 14:52:36,243 utils Sending webhook to https://webhook.site/336ac2fe-f03e-4980-84c3-33094b01d7ff
+INFO 2025-03-22 14:52:36,951 utils Webhook response status: 200
+DEBUG 2025-03-22 14:52:36,951 utils Webhook response body: This URL has no default content configured. <a href="https://webhook.site/#!/edit/336ac2fe-f03e-4980-84c3-33094b01d7ff">Change response in Webhook.site</a>.
+INFO 2025-03-22 14:52:36,951 utils Webhook sent successfully: customer_updated

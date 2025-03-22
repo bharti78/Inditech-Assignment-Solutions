@@ -1,0 +1,29 @@
+{% extends "socialaccount/base.html" %}
+{% load static %}
+
+{% block head_title %}Sign In Via Google{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/google-auth.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+  <div class="menu">
+    <h3>Menu:</h3>
+    <ul>
+      <li><a href="{% url 'account_login' %}">Sign In</a></li>
+      <li><a href="{% url 'account_signup' %}">Sign Up</a></li>
+    </ul>
+  </div>
+
+  <h1>Sign In Via Google</h1>
+  
+  <p>You are about to sign in using a third-party account from Google.</p>
+
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Continue</button>
+  </form>
+</div>
+{% endblock %}

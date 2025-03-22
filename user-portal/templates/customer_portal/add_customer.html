@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Add Customer{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="{% static 'css/multi-step-form.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <!-- Dark Mode Toggle
+            <div class="theme-toggle-wrapper mb-3 text-end">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="themeToggle">
+                    <label class="form-check-label" for="themeToggle">Dark Mode</label>
+                </div>
+            </div> -->
+            
+            <div class="form-container">
+                <div class="progress-bar">
+                    <div class="step active" data-step="1">
+                        <div class="step-circle">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="step-label">Personal Info</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="step" data-step="2">
+                        <div class="step-circle">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                        <div class="step-label">Contact Details</div>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="step" data-step="3">
+                        <div class="step-circle">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="step-label">Confirmation</div>
+                    </div>
+                </div>
+
+                <h1 class="text-center mb-4">Customer Information Form</h1>
+
+                <form method="post" id="customerForm">
+                    {% csrf_token %}
+                    
+                    <!-- Step 1: Basic Information -->
+                    <div class="form-step active" id="step1">
+                        <h2><i class="fas fa-user-circle"></i> Step 1: Basic Information</h2>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="id_first_name">First Name*</label>
+                                {{ form.first_name }}
+                                <div class="error-message">{{ form.first_name.errors }}</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="id_middle_name">Middle Name</label>
+                                {{ form.middle_name }}
+                                <div class="error-message">{{ form.middle_name.errors }}</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="id_last_name">Last Name*</label>
+                                {{ form.last_name }}
+                                <div class="error-message">{{ form.last_name.errors }}</div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id_date_of_birth">Date of Birth*</label>
+                            {{ form.date_of_birth }}
+                            <div class="error-message">{{ form.date_of_birth.errors }}</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Gender*</label>
+                            <div class="radio-group">
+                                {% for radio in form.gender %}
+                                <label class="radio-label">
+                                    {{ radio.tag }}
+                                    <span class="radio-custom"></span>
+                                    {{ radio.choice_label }}
+                                </label>
+                                {% endfor %}
+                            </div>
+                            <div class="error-message">{{ form.gender.errors }}</div>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="button" id="step1Next" class="btn btn-next">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Contact Information -->
+                    <div class="form-step" id="step2">
+                        <h2><i class="fas fa-address-book"></i> Step 2: Contact Information</h2>
+                        
+                        <div class="form-group">
+                            <label for="id_email">Email Address*</label>
+                            {{ form.email }}
+                            <div class="error-message">{{ form.email.errors }}</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id_phone">Phone Number*</label>
+                            {{ form.phone }}
+                            <div class="error-message">{{ form.phone.errors }}</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="id_address">Address*</label>
+                            {{ form.address }}
+                            <div class="error-message">{{ form.address.errors }}</div>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="button" id="step2Back" class="btn btn-back">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="button" id="step2Next" class="btn btn-next">
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Summary -->
+                    <div class="form-step" id="step3">
+                        <h2><i class="fas fa-clipboard-check"></i> Step 3: Summary</h2>
+                        
+                        <div class="summary-container">
+                            <div class="summary-section">
+                                <h3><i class="fas fa-user-circle"></i> Basic Information</h3>
+                                <table class="summary-table">
+                                    <tr>
+                                        <td class="summary-label">Full Name:</td>
+                                        <td id="summaryName"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="summary-label">Date of Birth:</td>
+                                        <td id="summaryDob"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="summary-label">Gender:</td>
+                                        <td id="summaryGender"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div class="summary-section">
+                                <h3><i class="fas fa-address-book"></i> Contact Information</h3>
+                                <table class="summary-table">
+                                    <tr>
+                                        <td class="summary-label">Email:</td>
+                                        <td id="summaryEmail"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="summary-label">Phone:</td>
+                                        <td id="summaryPhone"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="summary-label">Address:</td>
+                                        <td id="summaryAddress"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="button" id="step3Back" class="btn btn-back">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button type="submit" id="submitForm" class="btn btn-submit">
+                                <i class="fas fa-paper-plane"></i> Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'js/multi-step-form.js' %}"></script>
+{% endblock %}
+

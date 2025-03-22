@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/auth.css' %}">
+{% endblock %}
+
+
+{% block content %}
+<div class="auth-container">
+  <div class="auth-header">
+    <h1>{% block head_title %}{% endblock %}</h1>
+  </div>
+  
+  <div class="auth-menu">
+    <ul>
+      <li><a href="{% url 'account_login' %}" {% if request.path == '/accounts/login/' %}class="active"{% endif %}>Sign In</a></li>
+      <li><a href="{% url 'account_signup' %}" {% if request.path == '/accounts/signup/' %}class="active"{% endif %}>Sign Up</a></li>
+    </ul>
+  </div>
+
+  <div class="auth-form">
+    {% block inner_content %}{% endblock %}
+  </div>
+</div>
+{% endblock %}

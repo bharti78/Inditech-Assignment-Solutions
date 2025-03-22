@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block title %}Query History - Code Query Portal{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h4 class="mb-0">Your Query History</h4>
+            </div>
+            <div class="card-body">
+                {% if queries %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Query</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for query in queries %}
+                            <tr>
+                                <td>{{ query.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+                                <td>{{ query.query_text }}</td>
+                                <td>
+                                    {% if query.matched %}
+                                    <span class="badge bg-success">Found</span>
+                                    {% else %}
+                                    <span class="badge bg-secondary">No Match</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary view-response" data-bs-toggle="modal" data-bs-target="#responseModal" data-query="{{ query.query_text }}" data-response="{{ query.response }}">View</button>
+                                    {% if query.matched %}
+                                    <a href="{{ url_for('download_solution', query_id=query.id) }}" class="btn btn-sm btn-outline-success">Download</a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-info">
+                    <p class="mb-0">You haven't made any queries yet. Go to the <a href="{{ url_for('index') }}" class="alert-link">home page</a> to start querying!</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Response Modal -->
+<div class="modal fade" id="responseModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalQueryText"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <pre><code class="python" id="modalResponseCode"></code></pre>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Handle view response buttons
+        document.querySelectorAll('.view-response').forEach(button => {
+            button.addEventListener('click', function() {
+                const query = this.getAttribute('data-query');
+                const response = this.getAttribute('data-response');
+                
+                document.getElementById('modalQueryText').textContent = query;
+                document.getElementById('modalResponseCode').textContent = response;
+                
+                // Initialize syntax highlighting
+                document.querySelectorAll('#modalResponseCode').forEach((block) => {
+                    hljs.highlightElement(block);
+                });
+            });
+        });
+    });
+</script>
+{% endblock %}

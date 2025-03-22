@@ -1,0 +1,566 @@
+2025-03-20 09:22:13,707 - flask_migrate - ERROR - Error: Directory migrations already exists and is not empty
+2025-03-20 09:23:31,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 09:23:31,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 09:23:31,083 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 09:23:32,490 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 09:23:32,490 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 09:23:52,356 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 09:23:52,451 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:52] "GET /login HTTP/1.1" 200 -
+2025-03-20 09:23:52,601 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 09:23:52,611 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-20 09:23:53,188 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 09:23:58,221 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 09:23:58] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:31:25,905 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:31:25,905 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:31:25,911 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:31:27,017 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:31:27,026 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:31:41,162 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:31:41,237 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:41] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:31:41,317 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:31:41,337 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:31:41,998 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 11:31:44,924 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:31:44] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:33:47,889 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:33:47] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:34:05,466 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:34:05,466 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:34:05,467 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:34:06,632 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:34:06,635 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:34:18,699 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:34:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:34:18,724 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:34:18] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:34:18,795 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:34:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:34:18,799 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:34:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:34:20,589 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:34:20] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:35:20,960 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:35:20] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:36:39,850 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:36:39,850 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:36:44,909 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:36:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:36:44,935 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:36:44] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:36:45,001 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:36:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:36:45,011 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:36:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:36:46,812 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:36:46] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:41:12,134 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:41:12,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:41:12,136 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:41:13,268 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:41:13,272 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:41:15,041 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:41:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:41:15,066 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:41:15] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:41:15,141 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:41:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:41:15,142 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:41:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:41:17,658 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:41:17] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:47:49,318 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:47:49,318 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:47:49,319 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:47:50,412 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:47:50,422 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:47:55,579 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:47:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:47:55,605 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:47:55] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:47:55,670 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:47:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:47:55,683 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:47:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:47:57,963 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:47:57] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:48:27,733 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:48:27,733 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:48:27,733 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:48:28,882 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:48:28,882 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:48:32,868 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:48:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:48:32,885 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:48:32] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:48:32,956 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:48:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:48:32,964 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:48:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:48:35,202 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:48:35] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:49:06,855 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 11:49:06,862 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:06] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:49:06,908 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 11:49:06,908 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:06] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-20 11:49:07,583 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 11:49:08,623 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:49:08] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:52:45,071 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 11:52:45,071 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 11:52:45,073 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 11:52:46,196 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 11:52:46,199 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 11:53:01,482 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:01] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 11:53:01,540 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:01] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:53:01,774 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 11:53:01,868 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-20 11:53:02,215 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 11:53:12,698 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:12] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:53:19,567 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:19] "GET /login HTTP/1.1" 200 -
+2025-03-20 11:53:19,590 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:53:19,895 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:53:21,450 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:21] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:53:25,139 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:25] "[32mGET /bypass-login HTTP/1.1[0m" 302 -
+2025-03-20 11:53:25,173 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:25] "GET / HTTP/1.1" 200 -
+2025-03-20 11:53:25,515 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:53:25,518 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:53:44,426 - __main__ - INFO - User 1 submitted query: Check if a number is prime
+2025-03-20 11:53:44,448 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:44] "POST /query HTTP/1.1" 200 -
+2025-03-20 11:53:48,230 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:48] "[32mGET /download/1 HTTP/1.1[0m" 302 -
+2025-03-20 11:53:48,238 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:48] "GET /view/solution_1_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-20 11:53:48,370 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:53:48,573 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 11:53:48,585 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:48] "GET /uploads/solution_1_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-20 11:53:51,346 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:53:51] "GET /uploads/solution_1_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-20 11:55:14,434 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:55:14] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 11:59:41,077 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 11:59:41] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 12:04:43,734 - werkzeug - INFO -  * Detected change in 'C:\\Users\\bhart\\code-query-portal\\app.py', reloading
+2025-03-20 12:04:43,860 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:04:45,090 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:04:45,091 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:05:19,126 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 12:05:19,127 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 12:05:19,128 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:05:20,237 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:05:20,240 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:05:45,373 - werkzeug - INFO -  * Detected change in 'C:\\Users\\bhart\\code-query-portal\\app.py', reloading
+2025-03-20 12:05:45,506 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:05:46,765 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:05:46,768 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:06:15,763 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:06:15] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 12:06:15,787 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:06:15] "GET /login HTTP/1.1" 200 -
+2025-03-20 12:06:16,051 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:06:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:06:16,107 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:06:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:09:26,593 - werkzeug - INFO -  * Detected change in 'C:\\Users\\bhart\\code-query-portal\\app.py', reloading
+2025-03-20 12:09:26,712 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:10:53,513 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 12:10:53,513 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 12:10:53,513 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:10:54,663 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:10:54,669 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:10:58,476 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:10:58] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 12:10:58,504 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:10:58] "GET /login HTTP/1.1" 200 -
+2025-03-20 12:10:58,756 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:10:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:10:58,830 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:10:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:11:06,004 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:11:06] "[32mGET /bypass-login HTTP/1.1[0m" 302 -
+2025-03-20 12:11:06,234 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:11:06] "GET / HTTP/1.1" 200 -
+2025-03-20 12:11:06,264 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:11:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:11:06,578 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:11:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:12:17,079 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 12:12:17,079 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 12:12:17,080 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:12:18,224 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:12:18,228 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:14:09,766 - werkzeug - INFO -  * Detected change in 'C:\\Users\\bhart\\code-query-portal\\app.py', reloading
+2025-03-20 12:14:09,873 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:14:11,080 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:14:11,080 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:16:02,435 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 12:16:02,435 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 12:16:02,436 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 12:16:03,571 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 12:16:03,574 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 12:16:09,216 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:09] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 12:16:09,244 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:09] "GET /login HTTP/1.1" 200 -
+2025-03-20 12:16:09,497 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:16:09,569 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:16:12,367 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:12] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 12:16:22,026 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:22] "[32mGET /login/google/callback?state=be52f9d532ebebb5a10c4412d9241ac3&code=4/0AQSTgQF3OiChM-BKuY8DrKmdTXbMreBE5lV5FX3wifHROfvDW7FmAKyh41dNYFRBV4TFlw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=iiitkota.ac.in&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-20 12:16:22,046 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:22] "GET / HTTP/1.1" 200 -
+2025-03-20 12:16:22,394 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:16:22,403 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:16:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:17:30,852 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:30] "GET /history HTTP/1.1" 200 -
+2025-03-20 12:17:31,057 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:17:31,069 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 12:17:33,317 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 12:17:33,628 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:33] "GET /login HTTP/1.1" 200 -
+2025-03-20 12:17:33,963 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 12:17:33,963 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 12:17:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:28:04,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:28:04,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:28:04,730 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 22:28:05,903 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 22:28:05,908 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 22:28:22,351 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 22:28:22,424 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:22] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:28:22,493 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:28:22,514 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:28:23,130 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 22:28:25,991 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:25] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:28:35,369 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:28:35] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:29:04,812 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:04] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:29:26,599 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:29:26,599 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:29:26,601 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 22:29:27,770 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 22:29:27,770 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 22:29:43,551 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:43] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 22:29:43,601 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:43] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:29:43,828 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:29:43,929 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:29:44,240 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 22:29:47,476 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:29:47] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:30:38,435 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:30:38] "[32mGET /login/google/callback?state=d8de4f3671e9a7a5f138810ddaca2485&code=4/0AQSTgQH0IIwlXkvKgfFmocZrFzMrYaIu8WJAu1JNaPw7v_J5IUJ7uBDJG9eoeh4wGHa52A&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=2&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-20 22:30:38,454 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:30:38] "GET / HTTP/1.1" 200 -
+2025-03-20 22:30:38,806 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:30:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:30:38,808 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:30:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:31:15,758 - __main__ - INFO - User 3 submitted query: Calculate the fibonacci sequence
+2025-03-20 22:31:15,776 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:15] "POST /query HTTP/1.1" 200 -
+2025-03-20 22:31:23,883 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 22:31:24,102 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:24] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:31:24,138 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:31:24,435 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:31:28,305 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:31:28] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:32:00,285 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:00] "[32mGET /login/google/callback?state=5626d3a38739bff373286f93621f0171&code=4/0AQSTgQGHdzCRA-LvNzmZtxs7JGyaqvTr5fps7UOofeLvbbzZxlWsGJTk_jNnCfaFO9SmnQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=iiitkota.ac.in&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 22:32:00,605 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:00] "GET / HTTP/1.1" 200 -
+2025-03-20 22:32:00,894 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:32:00,961 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:32:24,503 - __main__ - INFO - User 2 submitted query: Calculate the fibonacci sequence
+2025-03-20 22:32:24,514 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:24] "POST /query HTTP/1.1" 200 -
+2025-03-20 22:32:29,713 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:29] "GET /history HTTP/1.1" 200 -
+2025-03-20 22:32:29,941 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:32:29,949 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:32:46,015 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:46] "GET / HTTP/1.1" 200 -
+2025-03-20 22:32:46,332 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:32:46,349 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:32:49,690 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 22:32:49,918 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:49] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:32:49,939 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:32:50,250 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:32:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:33:00,601 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:33:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:40:15,834 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:40:15] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:40:15,872 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:40:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:40:16,077 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:40:16] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-20 22:41:09,122 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:41:09] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:41:09,149 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:41:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:41:09,385 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:41:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:42:24,953 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:42:24] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:42:24,977 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:42:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:42:25,197 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:42:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:44:39,476 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:44:39] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:44:39,501 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:44:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:44:39,708 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:44:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:45:19,722 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:45:19] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:45:19,740 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:45:19,976 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:45:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:49:28,690 - werkzeug - INFO -  * Detected change in 'C:\\Users\\bhart\\code-query-portal\\app.py', reloading
+2025-03-20 22:49:28,822 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 22:49:30,196 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 22:49:30,203 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 22:49:36,718 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:49:36] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:49:36,766 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:49:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:49:36,964 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:49:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:51:31,236 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:31] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-03-20 22:51:31,272 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:31] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-20 22:51:31,440 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:31] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-20 22:51:31,788 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:31] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=XWKR2UHah9lVAOlm8n7i HTTP/1.1" 200 -
+2025-03-20 22:51:32,041 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-20 22:51:37,045 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:51:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 22:51:54,587 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 22:51:54,587 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:51:54,594 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 22:51:55,734 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 22:51:55,738 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 22:52:00,864 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:00] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 22:52:00,902 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:00] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:52:01,137 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:52:01,237 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:52:01,251 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 22:52:11,167 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:11] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:52:11,185 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:52:11,428 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:52:14,817 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:14] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:52:46,740 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:46] "[32mGET /login/google/callback?state=9a9d652995ce98361645d9b4960318c8&code=4/0AQSTgQFPgrznJ5KVDsR9HGhh1Rh0TkPrl36avP6pjqRuc5cA2dazCL3l87DzmkmlnBbX2g&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=2&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 22:52:46,764 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:46] "GET / HTTP/1.1" 200 -
+2025-03-20 22:52:47,120 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:52:47,122 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:52:55,966 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:55] "GET / HTTP/1.1" 200 -
+2025-03-20 22:52:56,278 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:52:56,304 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:52:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:55:42,777 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:55:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 22:55:43,005 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:55:43] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:55:43,029 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:55:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:55:43,339 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:55:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:55:44,464 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:55:44] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:56:17,339 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:56:17] "[32mGET /login/google/callback?state=d22cd980a4ac33e6f5de9e9d5280bc91&code=4/0AQSTgQENbhPO_yRuw9wkodNEOhSoA1NqEW3p9PKzLcgqmMG3Uwg7Q8FnaAXPhavWFwvSng&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=iiitkota.ac.in&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 22:56:17,686 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:56:17] "GET / HTTP/1.1" 200 -
+2025-03-20 22:56:17,919 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:56:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:56:18,040 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:56:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:58:54,140 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:54] "GET / HTTP/1.1" 200 -
+2025-03-20 22:58:54,167 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:58:54,359 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:58:57,674 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:57] "GET / HTTP/1.1" 200 -
+2025-03-20 22:58:57,699 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:58:57,930 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:58:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:59:04,756 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 22:59:04,991 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:04] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:59:05,010 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:59:05,319 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 22:59:06,969 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:06] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 22:59:32,102 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:32] "[32mGET /login/google/callback?state=3664c6cd798b59f551ba8d161f65b0e4&code=4/0AQSTgQG6iVo1hx-wlbeipMRC_WURUMHdZl7IRTubt_5o-6vbJIbP31dCChUP6BSWDzuuWQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=2&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 22:59:32,416 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:32] "GET / HTTP/1.1" 200 -
+2025-03-20 22:59:32,692 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 22:59:32,770 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 22:59:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:00:13,795 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:13] "GET / HTTP/1.1" 200 -
+2025-03-20 23:00:14,127 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:00:14,129 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:00:16,446 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:16] "GET / HTTP/1.1" 200 -
+2025-03-20 23:00:16,474 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:00:16,695 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:00:29,448 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:29] "GET / HTTP/1.1" 200 -
+2025-03-20 23:00:29,487 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:00:29,709 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:00:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:01:21,324 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:21] "GET / HTTP/1.1" 200 -
+2025-03-20 23:01:21,358 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:01:21,550 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:01:54,217 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:54] "GET / HTTP/1.1" 200 -
+2025-03-20 23:01:54,246 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:01:54,461 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:01:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:02:23,338 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:23] "GET / HTTP/1.1" 200 -
+2025-03-20 23:02:23,376 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:02:23,582 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:02:41,661 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:41] "GET / HTTP/1.1" 200 -
+2025-03-20 23:02:41,694 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:02:41,916 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:02:48,808 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 23:02:49,042 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:49] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:02:49,062 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:02:49,367 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:02:50,867 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:02:50] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 23:03:21,661 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:03:21] "[32mGET /login/google/callback?state=d71f13498ba2100e8d7467d86a7a79df&code=4/0AQSTgQFHQ4cs50RQtptH5xlB2U6tYQeSMBHgftBu7X9f_4hdrl-a645ZiiWaTIiLrfhDng&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=iiitkota.ac.in&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 23:03:21,985 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:03:21] "GET / HTTP/1.1" 200 -
+2025-03-20 23:03:22,239 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:03:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:03:22,344 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:03:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:04:16,769 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:04:16] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:04:17,081 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:04:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:04:17,100 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:04:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:18:49,736 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 23:18:49,737 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 23:18:49,739 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 23:18:51,002 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 23:18:51,009 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 23:19:01,243 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:01] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 23:19:01,331 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:01] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:19:01,543 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:19:01,671 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-20 23:19:02,147 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 23:19:51,190 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:51] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:19:51,222 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:19:51,425 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:19:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:20:59,034 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:20:59] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 23:21:23,658 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:21:23] "[32mGET /login/google/callback?state=3023ef3a3348458d5ba0a0ed7a25aad2&code=4/0AQSTgQHo0uDm_brviQcwlb3B81vKMNCT8_f3l6MVhtirlClIkOIwq6GB296UgIlFS2VAsQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=iiitkota.ac.in&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 23:21:23,713 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:21:23] "GET / HTTP/1.1" 200 -
+2025-03-20 23:21:24,085 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:21:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:21:24,085 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:21:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:21:35,954 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:21:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:22:48,211 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:22:48] "GET / HTTP/1.1" 200 -
+2025-03-20 23:22:48,264 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:22:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:22:48,450 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:22:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:23:09,037 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:09] "GET / HTTP/1.1" 200 -
+2025-03-20 23:23:09,081 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-20 23:23:09,290 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:23:12,165 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:12] "GET / HTTP/1.1" 200 -
+2025-03-20 23:23:12,197 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:23:12,405 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:23:39,643 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:39] "GET / HTTP/1.1" 200 -
+2025-03-20 23:23:39,681 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:23:39,904 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:23:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:24:13,722 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:13] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:24:13,924 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:24:13,946 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:24:22,844 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:22] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:24:23,163 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:24:23,178 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:24:24,425 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:24] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:24:24,458 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:24:24,678 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:24:42,910 - __main__ - INFO - User 2 submitted query: Binary search implementation
+2025-03-20 23:24:42,928 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:42] "POST /query HTTP/1.1" 200 -
+2025-03-20 23:24:50,271 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:50] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:24:50,587 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:24:50,598 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:24:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:38:43,788 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 23:38:43,788 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 23:38:43,791 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 23:38:44,988 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 23:38:44,991 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-20 23:38:47,445 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:47] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-20 23:38:47,498 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:47] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:38:47,725 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:38:47,821 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:38:47,835 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 23:38:51,642 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:38:51] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-20 23:39:19,937 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:19] "[32mGET /login/google/callback?state=efd6116b30b3d5e7531ad5603be9e8cd&code=4/0AQSTgQHWHOIaNoBr193qCfonYejEvFu0jBZCZKI9rKtMSuiyAyDLvmbItCiQ1zPFCRl1OQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=iiitkota.ac.in&prompt=none HTTP/1.1[0m" 302 -
+2025-03-20 23:39:19,957 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:19] "GET / HTTP/1.1" 200 -
+2025-03-20 23:39:20,313 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:39:20,322 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:39:33,423 - __main__ - INFO - User 2 submitted query: Binary search implementation
+2025-03-20 23:39:33,431 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:33] "POST /query HTTP/1.1" 200 -
+2025-03-20 23:39:35,982 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:35] "[32mGET /download/5 HTTP/1.1[0m" 302 -
+2025-03-20 23:39:35,992 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:35] "GET /view/solution_5_Binary_search_implem.pdf HTTP/1.1" 200 -
+2025-03-20 23:39:36,114 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:39:36,341 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:39:36,353 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:36] "GET /uploads/solution_5_Binary_search_implem.pdf HTTP/1.1" 200 -
+2025-03-20 23:39:41,102 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:39:41] "GET /uploads/solution_5_Binary_search_implem.pdf HTTP/1.1" 200 -
+2025-03-20 23:40:00,327 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:00] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:40:00,634 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:40:00,662 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:40:09,579 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:09] "GET /history HTTP/1.1" 200 -
+2025-03-20 23:40:09,608 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:40:09,837 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:40:21,843 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:21] "GET / HTTP/1.1" 200 -
+2025-03-20 23:40:21,886 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:40:22,200 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-20 23:40:23,799 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 23:40:24,012 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:24] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:40:24,034 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-20 23:40:24,339 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 23:40:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:23:45,815 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 12:23:45,815 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 12:23:45,823 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 12:23:47,874 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 12:23:47,882 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-21 12:23:55,529 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-21 12:23:55,699 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:55] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:23:55,851 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-21 12:23:55,878 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-21 12:23:56,867 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 12:23:59,749 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:23:59] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-21 12:24:15,955 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:15] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-21 12:24:16,005 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:16] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:24:16,040 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:24:16,060 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:24:16,201 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 12:24:35,065 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:35] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:24:35,107 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:24:35,323 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:24:35,652 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 12:24:40,310 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:40] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-21 12:24:45,234 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:45] "[32mGET /login/google/callback?state=e8d9f7972802898344740020dcea0f3e&code=4/0AQSTgQGzcezMdlhYUcItqr5H6DDkELqyqH-l7auivmDVLl0m1HEjfmvasvQC6mny1qyc-w&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+openid+https://www.googleapis.com/auth/userinfo.email&authuser=2&prompt=none HTTP/1.1[0m" 302 -
+2025-03-21 12:24:45,628 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:45] "GET / HTTP/1.1" 200 -
+2025-03-21 12:24:45,824 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:24:45,992 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:24:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:25:09,017 - __main__ - INFO - User 3 submitted query: Bubble sort implementation
+2025-03-21 12:25:09,041 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:09] "POST /query HTTP/1.1" 200 -
+2025-03-21 12:25:13,325 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:13] "GET /history HTTP/1.1" 200 -
+2025-03-21 12:25:13,513 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:25:13,539 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:25:36,871 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:36] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-21 12:25:37,192 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:37] "GET / HTTP/1.1" 200 -
+2025-03-21 12:25:37,561 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:25:37,563 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:25:41,713 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-21 12:25:42,020 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:42] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:25:42,364 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:25:42,372 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:25:43,245 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:43] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:25:43,547 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:25:43,587 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 12:25:45,790 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:45] "GET /login HTTP/1.1" 200 -
+2025-03-21 12:25:46,031 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 12:25:46,051 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 12:25:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 23:39:27,841 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 23:39:27,841 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 23:39:27,841 - werkzeug - INFO -  * Restarting with stat
+2025-03-21 23:39:29,727 - werkzeug - WARNING -  * Debugger is active!
+2025-03-21 23:39:29,735 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-21 23:39:32,778 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:32] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-21 23:39:32,877 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:32] "GET /login HTTP/1.1" 200 -
+2025-03-21 23:39:33,082 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 23:39:33,244 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 23:39:33,268 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 23:39:36,834 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:36] "GET /login HTTP/1.1" 200 -
+2025-03-21 23:39:37,070 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 23:39:37,081 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-21 23:39:40,501 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:40] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-21 23:39:47,982 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:47] "[32mGET /login/google/callback?state=e2ece9dafc676a1313afbcc30991bf6a&code=4/0AQSTgQE_dnM0LNvCDaOufbsb5ZMgIbXbeMDrpjcUtA2kNJVkdaOOqidXpmyl7B5jyd3uwQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=2&prompt=none HTTP/1.1[0m" 302 -
+2025-03-21 23:39:48,356 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:48] "GET / HTTP/1.1" 200 -
+2025-03-21 23:39:48,568 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-21 23:39:48,724 - werkzeug - INFO - 127.0.0.1 - - [21/Mar/2025 23:39:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:37:05,040 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 16:37:05,040 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 16:37:05,042 - werkzeug - INFO -  * Restarting with stat
+2025-03-22 16:37:06,225 - werkzeug - WARNING -  * Debugger is active!
+2025-03-22 16:37:06,229 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-22 16:37:10,804 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:10] "[32mGET /login/google/callback HTTP/1.1[0m" 302 -
+2025-03-22 16:37:10,886 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:10] "GET /login HTTP/1.1" 200 -
+2025-03-22 16:37:11,096 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 16:37:11,232 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:37:11,244 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-22 16:37:17,206 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:17] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-22 16:37:21,348 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:21] "[32mGET /login/google/callback?state=9431fe4d95f1c566d77329e785567a78&code=4/0AQSTgQG6zdCJXY_i6dVH-BLMtPzerU87bHMiAAzBK4I1kwYcL6Owew4C6SDFfCyNn6BBRQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=2&prompt=none HTTP/1.1[0m" 302 -
+2025-03-22 16:37:21,394 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:21] "GET / HTTP/1.1" 200 -
+2025-03-22 16:37:21,752 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 16:37:21,762 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:37:39,116 - __main__ - INFO - User 3 submitted query: Bubble sort implementation
+2025-03-22 16:37:39,138 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:39] "POST /query HTTP/1.1" 200 -
+2025-03-22 16:37:43,519 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:43] "[32mGET /download/7 HTTP/1.1[0m" 302 -
+2025-03-22 16:37:43,547 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:43] "GET /view/solution_7_Bubble_sort_implemen.pdf HTTP/1.1" 200 -
+2025-03-22 16:37:43,691 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 16:37:43,897 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:37:43,908 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:43] "GET /uploads/solution_7_Bubble_sort_implemen.pdf HTTP/1.1" 200 -
+2025-03-22 16:37:49,317 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:49] "GET /uploads/solution_7_Bubble_sort_implemen.pdf HTTP/1.1" 200 -
+2025-03-22 16:37:55,166 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:55] "GET /history HTTP/1.1" 200 -
+2025-03-22 16:37:55,450 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 16:37:55,513 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:37:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:38:03,400 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:38:03] "GET / HTTP/1.1" 200 -
+2025-03-22 16:38:03,624 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:38:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 16:38:03,656 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:38:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:40:36,570 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 16:40:36,570 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 16:40:47,930 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 16:40:47,931 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 16:40:47,932 - werkzeug - INFO -  * Restarting with stat
+2025-03-22 16:40:49,098 - werkzeug - WARNING -  * Debugger is active!
+2025-03-22 16:40:49,100 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-22 16:41:07,573 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:07] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-22 16:41:07,596 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:07] "GET /login HTTP/1.1" 200 -
+2025-03-22 16:41:07,857 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-22 16:41:07,941 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:07] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-22 16:41:08,829 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-22 16:41:10,316 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:10] "[32mGET /bypass-login HTTP/1.1[0m" 302 -
+2025-03-22 16:41:10,638 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:10] "GET / HTTP/1.1" 200 -
+2025-03-22 16:41:10,972 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 16:41:10,973 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 16:41:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 18:04:15,287 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 18:04:15,287 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 18:04:15,294 - werkzeug - INFO -  * Restarting with stat
+2025-03-22 18:04:17,112 - werkzeug - WARNING -  * Debugger is active!
+2025-03-22 18:04:17,119 - werkzeug - INFO -  * Debugger PIN: 290-715-520
+2025-03-22 18:04:33,772 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-22 18:04:33,802 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:33] "GET /login HTTP/1.1" 200 -
+2025-03-22 18:04:34,072 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-22 18:04:34,178 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-03-22 18:04:34,511 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-22 18:04:37,445 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:37] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2025-03-22 18:04:47,673 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:47] "[32mGET /login/google/callback?state=8b36d854e7d7563d8bd34687a9dac442&code=4/0AQSTgQH4an569vz6juSOCqQqGQVnevDaGLgoG1x59SduIeoQWPvffGqq2MX5QAgNL5c9Lw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=1&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-22 18:04:48,013 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:48] "GET / HTTP/1.1" 200 -
+2025-03-22 18:04:48,257 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 18:04:48,394 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:04:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 18:05:04,365 - __main__ - INFO - User 3 submitted query: Check if a number is a palindrome
+2025-03-22 18:05:04,384 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:04] "POST /query HTTP/1.1" 200 -
+2025-03-22 18:05:20,806 - __main__ - INFO - User 3 submitted query: Check if a number is prime
+2025-03-22 18:05:20,821 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:20] "POST /query HTTP/1.1" 200 -
+2025-03-22 18:05:26,134 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:26] "[32mGET /download/9 HTTP/1.1[0m" 302 -
+2025-03-22 18:05:26,298 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:26] "GET /view/solution_9_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-22 18:05:26,661 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 18:05:26,664 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-03-22 18:05:26,683 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:26] "GET /uploads/solution_9_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-22 18:05:33,093 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:33] "GET /uploads/solution_9_Check_if_a_number_is.pdf HTTP/1.1" 200 -
+2025-03-22 18:05:36,355 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:36] "GET /history HTTP/1.1" 200 -
+2025-03-22 18:05:36,410 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-22 18:05:36,586 - werkzeug - INFO - 127.0.0.1 - - [22/Mar/2025 18:05:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

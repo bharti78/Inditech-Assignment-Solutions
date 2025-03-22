@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/signup.css' %}">
+
+{% endblock %}
+
+{% block title %}{% trans "Sign Up" %}{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+  <div class="auth-header">
+    <h1>{% trans "Sign Up" %}</h1>
+  </div>
+  
+  <div class="auth-menu">
+    <ul>
+      <li><a href="{% url 'account_login' %}">{% trans "Sign In" %}</a></li>
+      <li><a href="{% url 'account_signup' %}" class="active">{% trans "Sign Up" %}</a></li>
+    </ul>
+  </div>
+
+  <div class="auth-form">
+    <p class="auth-footer">
+      {% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+    </p>
+
+    <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+      {% csrf_token %}
+      
+      {% if form.non_field_errors %}
+      <div class="alert alert-danger">
+        {% for error in form.non_field_errors %}
+          {{ error }}
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      <div class="form-group">
+        <label for="id_email">{% trans "Email" %}:</label>
+        <input type="email" name="email" placeholder="Email address" autocomplete="email" required id="id_email" class="form-control">
+        {% if form.email.errors %}
+        <ul class="errorlist">
+          {% for error in form.email.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      
+      <div class="form-group">
+        <label for="id_password1">{% trans "Password" %}:</label>
+        <input type="password" name="password1" placeholder="Password" autocomplete="new-password" required id="id_password1" class="form-control">
+        {% if form.password1.errors %}
+        <ul class="errorlist">
+          {% for error in form.password1.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      
+      <div class="password-requirements">
+        <strong>Password requirements:</strong>
+        <ul>
+          <li>Your password can't be too similar to your other personal information.</li>
+          <li>Your password must contain at least 8 characters.</li>
+          <li>Your password can't be a commonly used password.</li>
+          <li>Your password can't be entirely numeric.</li>
+        </ul>
+      </div>
+      
+      <div class="form-group">
+        <label for="id_password2">{% trans "Password (again)" %}:</label>
+        <input type="password" name="password2" placeholder="Password (again)" autocomplete="new-password" required id="id_password2" class="form-control">
+        {% if form.password2.errors %}
+        <ul class="errorlist">
+          {% for error in form.password2.errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      
+      {% if redirect_field_value %}
+      <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+      {% endif %}
+      
+      <button type="submit" class="btn btn-primary">{% trans "Sign Up" %}</button>
+    </form>
+    
+    <div class="social-login">
+      <div class="social-login-divider">
+        <span>OR</span>
+      </div>
+      
+      <a href="/accounts/google/login/?process=login" class="btn btn-google">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" alt="Google">
+        Sign up with Google
+        
+      </a>
+    </div>
+  </div>
+</div>
+{% endblock %}
